@@ -13,9 +13,8 @@
     src: url(../Fonts/Metrophobic-Regular.ttf);
 }
 
- #Wrapper{
-    margin: 10% auto;
-    position: absolute;
+ #main{
+    background-color: #2A2B2A;
 }
 
 #contact {
@@ -23,21 +22,22 @@
     margin-bottom: 0%;
 }
 
-.contact-container {
-    display: flex;
-    align-content: center;
-}
-
 .collapse {
     text-align: center;
     margin: 0%;
     font-family: Metrophobic-Regular;
+    color: #CE7DA5;
+}
+
+.card {
+    background-color: #2A2B2A;
 }
 
 .card-body {
     margin-left: 1%;
     margin-right: 1%;
     margin-top: 1%;
+    background-color: #8980F5;
 }
 
 #header {
@@ -45,6 +45,7 @@
     font-size: 90pt;
     font-weight: 600;
     font-family: HindGuntur-Regular;
+    color: #EEF0F2 ;
 }
 
 #tagline {
@@ -52,4 +53,5 @@
     font-size: 20pt;
     font-weight: 200;
     font-family: Cardo-Regular;
+    color: #EEF0F2;
 }
